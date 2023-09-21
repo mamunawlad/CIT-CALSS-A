@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');
+
+/** common css start here */
+:root{
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+    --primaryColor: #FF6F61;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p,span,ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--primaryFont);
+}
+/** common css end here */
+
+/**
+** WEBSITE NAME = AYTOR ECOMMERCE
+** DEVELOPER NAME = MD.AWLAD HOSSAIN
+** DEVELOPER URI =
+** LI NO. = 
+* * 1. HOME
+      * navbar
+      * banner
+      * service
+      
+*/
+/* HOME START HERE*/
+/* NAVBAR START HERE*/
+.myCustomNav .iconGroup li{
+    display: inline-block;
+}
+.sm_navbar .iconGroup li a span,
+.sm_navbar .iconGroup li a,
+.myCustomNav .iconGroup li span,
+.myCustomNav .iconGroup li a{
+    color: #151A32;
+    margin: 0 10PX;
+    position: relative;
+    font-size: 24px;
+}
+.sm_navbar .iconGroup li a span.cartNumber,
+.myCustomNav .iconGroup li a span.cartNumber{
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: block;
+    text-align: center;
+    line-height: 17px;
+    position: absolute;
+    top: -5px;
+    right: -17px;
+    font-size: 14px;
+
+}
+.myCustomNav #navManue ul li{
+    position: relative;
+}
+ 
+.myCustomNav #navManue ul li a{
+padding: 37px 22px;
+color: #11161E;
+font-family: Josefin Sans;
+font-size: 16px;
+line-height: 26px;
+
+}
+.myCustomNav #navManue ul li:hover a{
+    color: var(--primaryColor);
+}
+.dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;  
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+
+}
+
+.dropdown_menu{
+    display: none;
+    color: blue;
+}
+.myCustomNav #navManue ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(75, 71, 83);    
+}
+
+.sm_navbar .menu button{
+    border: none;
+    font-size: 24px;
+    background-color: white;
+}
+.sm_navbar .smMenu ul li a{
+color: #11161E;
+padding: 15PX 10PX;
+display: inline-block;
+border-bottom: 1px solid #ccc;
+}
+.sm_navbar .smMenu ul li:last-child a{
+    border: none;
+}
+
+/* NAVBAR ENDS HERE*/
+/*MAIN SECTION START HERE*/
+/*BANNER START HERE*/
+
+   #banner .slide{
+    height: 800px;
+   }
+.slide h3{
+color: #1D1D1D;
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 28px;
+ word-wrap: break-word
+}
+.slide h2{
+color: #1D1D1D;
+ font-size: 64px;
+ margin: 14px 0 16px;
+ font-weight: 700;
+ line-height: 74px;
+ word-wrap: break-word
+}
+.slide p{
+color: #1D1D1D;
+ font-size: 16px;
+ font-family: var(--secondaryFont);
+ font-weight: 400;
+ line-height: 28px;
+ word-wrap: break-word
+}
+.slide a{
+background-color: var(--primaryColor);
+margin-top: 29px;
+padding: 13px 37px;
+display: inline-block;
+ color: white;
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 30px;
+ word-wrap: break-word
+}
+
+
+
+/*BANNER ENDS HERE*/
+/*MAIN SECTION ENDS HERE*/
+
+
+
+/* HOME END HERE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
